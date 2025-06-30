@@ -1,14 +1,17 @@
-package com.example.lesson44rest2.model;
+package com.example.lesson45swagger.model;
 
-
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
+@Schema(description = "Клиент банка")
 public class Client {
     @NotNull
+    @Schema(description = "ID клиента", example = "1")
     private Integer id;
 
     @NotBlank
+    @Schema(description = "Имя клиента", example = "Ivan Ivanov")
     private String name;
 
     public Client() {}
