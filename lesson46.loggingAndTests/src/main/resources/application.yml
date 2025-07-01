@@ -1,0 +1,6 @@
+logging:
+  level:
+    root: INFO
+    com.example.lesson46loggingandtests: DEBUG
+  file:
+    name: logs/app.log

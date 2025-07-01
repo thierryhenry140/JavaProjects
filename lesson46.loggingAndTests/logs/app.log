@@ -1,0 +1,44 @@
+2025-07-01T13:37:53.591+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] c.e.lesson46loggingandtests.Application  : Starting Application using Java 23.0.1 with PID 14368 (D:\JavaProjects\lesson46.loggingAndTests\target\classes started by Artyom in D:\JavaProjects\lesson46.loggingAndTests)
+2025-07-01T13:37:53.602+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] c.e.lesson46loggingandtests.Application  : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T13:37:53.710+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01T13:37:53.711+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01T13:37:55.714+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T13:37:55.746+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T13:37:55.747+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T13:37:55.849+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T13:37:55.850+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2136 ms
+2025-07-01T13:37:56.638+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T13:37:56.690+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T13:37:56.703+03:00  INFO 14368 --- [lesson46.loggingAndTests] [restartedMain] c.e.lesson46loggingandtests.Application  : Started Application in 4.249 seconds (process running for 5.451)
+2025-07-01T13:38:47.322+03:00  INFO 14368 --- [lesson46.loggingAndTests] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T13:38:47.330+03:00  INFO 14368 --- [lesson46.loggingAndTests] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T13:39:25.660+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] c.e.lesson46loggingandtests.Application  : Starting Application using Java 23.0.1 with PID 15252 (D:\JavaProjects\lesson46.loggingAndTests\target\classes started by Artyom in D:\JavaProjects\lesson46.loggingAndTests)
+2025-07-01T13:39:25.663+03:00 DEBUG 15252 --- [lesson46.loggingAndTests] [restartedMain] c.e.lesson46loggingandtests.Application  : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-01T13:39:25.664+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] c.e.lesson46loggingandtests.Application  : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T13:39:25.826+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01T13:39:25.827+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01T13:39:27.800+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T13:39:27.839+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T13:39:27.840+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T13:39:27.931+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T13:39:27.931+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2103 ms
+2025-07-01T13:39:28.793+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T13:39:28.838+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T13:39:28.848+03:00  INFO 15252 --- [lesson46.loggingAndTests] [restartedMain] c.e.lesson46loggingandtests.Application  : Started Application in 4.022 seconds (process running for 5.12)
+2025-07-01T13:44:49.741+03:00  INFO 15252 --- [lesson46.loggingAndTests] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T13:44:49.747+03:00  INFO 15252 --- [lesson46.loggingAndTests] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T13:55:46.847+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.ApplicationTests                   : Starting ApplicationTests using Java 23.0.1 with PID 11820 (started by Artyom in D:\JavaProjects\lesson46.loggingAndTests)
+2025-07-01T13:55:46.851+03:00 DEBUG 11820 --- [lesson46.loggingAndTests] [main] c.e.l.ApplicationTests                   : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-01T13:55:46.856+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.ApplicationTests                   : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T13:55:51.795+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.ApplicationTests                   : Started ApplicationTests in 5.734 seconds (process running for 7.411)
+2025-07-01T13:55:53.018+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.controller.BankController          : Received request to save card: com.example.lesson46loggingandtests.model.Card@636dbfe7
+2025-07-01T13:55:53.020+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Saving card: com.example.lesson46loggingandtests.model.Card@636dbfe7
+2025-07-01T13:55:53.054+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Saving card: com.example.lesson46loggingandtests.model.Card@2c674d58
+2025-07-01T13:55:53.058+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Saving card: com.example.lesson46loggingandtests.model.Card@2d73e8c4
+2025-07-01T13:55:53.059+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Saving card: com.example.lesson46loggingandtests.model.Card@6ce2e079
+2025-07-01T13:55:53.059+03:00 DEBUG 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Start transfer: 1 -> 2 (amount: 40)
+2025-07-01T13:55:53.059+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Transfer successful: 1 -> 2 amount: 40
+2025-07-01T13:55:53.064+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Saving card: com.example.lesson46loggingandtests.model.Card@260d48f5
+2025-07-01T13:55:53.064+03:00  INFO 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Saving card: com.example.lesson46loggingandtests.model.Card@148ab138
+2025-07-01T13:55:53.065+03:00 DEBUG 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Start transfer: 1 -> 2 (amount: 20)
+2025-07-01T13:55:53.066+03:00  WARN 11820 --- [lesson46.loggingAndTests] [main] c.e.l.repository.BankRepository          : Insufficient funds: 1 has 10
