@@ -13,6 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api")
@@ -26,12 +27,40 @@ public class BankController {
         this.service = service;
     }
 
+
     @Operation(summary = "Сохранить клиента")
     @PostMapping("/client")
     public ResponseEntity<String> saveClient(@RequestBody @Valid Client client) {
         service.saveClient(client);
         return ResponseEntity.status(HttpStatus.CREATED).body("Client saved");
     }
+
+    @Operation(summary = "Получить клиента по ID")
+    @GetMapping("/client/{id}")
+    public ResponseEntity<Client> getClient(@PathVariable Integer id) {
+        return ResponseEntity.ok(service.getClient(id));
+    }
+
+    @Operation(summary = "Получить всех клиентов")
+    @GetMapping("/clients")
+    public ResponseEntity<List<Client>> getAllClients() {
+        return ResponseEntity.ok(service.getAllClients());
+    }
+
+    @Operation(summary = "Обновить клиента")
+    @PutMapping("/client")
+    public ResponseEntity<String> updateClient(@RequestBody @Valid Client client) {
+        service.updateClient(client);
+        return ResponseEntity.ok("Client updated");
+    }
+
+    @Operation(summary = "Удалить клиента по ID")
+    @DeleteMapping("/client/{id}")
+    public ResponseEntity<String> deleteClient(@PathVariable Integer id) {
+        service.deleteClient(id);
+        return ResponseEntity.ok("Client deleted");
+    }
+
 
     @Operation(summary = "Сохранить карту")
     @PostMapping("/card")
@@ -40,19 +69,32 @@ public class BankController {
         return ResponseEntity.status(HttpStatus.CREATED).body("Card saved");
     }
 
-    @Operation(summary = "Получить клиента по ID")
-    @GetMapping("/client/{id}")
-    public ResponseEntity<Client> getClient(@PathVariable Integer id) {
-        Client client = service.getClient(id);
-        return ResponseEntity.ok(client);
-    }
-
     @Operation(summary = "Получить карту по номеру")
     @GetMapping("/card/{number}")
     public ResponseEntity<Card> getCard(@PathVariable String number) {
-        Card card = service.getCard(number);
-        return ResponseEntity.ok(card);
+        return ResponseEntity.ok(service.getCard(number));
     }
+
+    @Operation(summary = "Получить все карты")
+    @GetMapping("/cards")
+    public ResponseEntity<List<Card>> getAllCards() {
+        return ResponseEntity.ok(service.getAllCards());
+    }
+
+    @Operation(summary = "Обновить карту")
+    @PutMapping("/card")
+    public ResponseEntity<String> updateCard(@RequestBody @Valid Card card) {
+        service.updateCard(card);
+        return ResponseEntity.ok("Card updated");
+    }
+
+    @Operation(summary = "Удалить карту по номеру")
+    @DeleteMapping("/card/{number}")
+    public ResponseEntity<String> deleteCard(@PathVariable String number) {
+        service.deleteCard(number);
+        return ResponseEntity.ok("Card deleted");
+    }
+
 
     @Operation(summary = "Перевод между картами")
     @PostMapping("/transfer")
